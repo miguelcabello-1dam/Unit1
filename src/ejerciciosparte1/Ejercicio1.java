@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
+		
 		// Diseña un programa que pida un número al usuario y a continuación lo muestre.
 		
 		// Creamos el scanner
