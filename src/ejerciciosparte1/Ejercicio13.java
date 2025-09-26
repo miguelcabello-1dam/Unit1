@@ -12,7 +12,7 @@ public class Ejercicio13 {
 		
 		// Declaramos las variables de la lluvia, la tarea, la biblioteca y si puede salir como booleans
 		boolean lluvia;
-		boolean tareahecha;
+		boolean tareaHecha;
 		boolean biblioteca;
 		boolean salir;
 		
@@ -20,11 +20,11 @@ public class Ejercicio13 {
 		System.out.println("Esta lluviendo?");
 		lluvia = sc.nextBoolean();
 		System.out.println("Has hecho la tarea?");
-		tareahecha = sc.nextBoolean();
+		tareaHecha = sc.nextBoolean();
 		System.out.println("tienes que ir a la biblioteca?");
 		biblioteca = sc.nextBoolean();
 		
-		salir = !lluvia && tareahecha || biblioteca;
+		salir = !lluvia && tareaHecha || biblioteca;
 		
 		// Devolvemos por pantalla si puede salir
 		System.out.println("Puedes salir? " + salir);
