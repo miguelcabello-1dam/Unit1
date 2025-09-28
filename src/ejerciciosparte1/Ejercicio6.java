@@ -10,8 +10,9 @@ public class Ejercicio6 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables del primer y segundo numero como Doubles por si contienen decimales
+		// Declaramos las variables del primer numero como double
 		double num1;
+		// Declaramos las variables del segundo numero como double
 		double num2;
 		
 		// Pedimos que se introduzca el primer numero
@@ -24,10 +25,13 @@ public class Ejercicio6 {
 		// Escaneamos el segundo numero y lo metemos en la variable num2
 		num2 = sc.nextDouble();
 		
-		// hacemos todos los calculos con estos numeros
+		// Suma de ambos numeros
 		System.out.println("La suma de estos dos numeros es " + (num1 + num2));
+		// Resta de ambos numeros
 		System.out.println("La resta de estos dos numeros es " + (num1 - num2));
+		// Multiplicacion de ambos numeros
 		System.out.println("La multiplicacion de estos dos numeros es " + (num1 * num2));
+		// Division de ambos numeros
 		System.out.println("La division de estos dos numeros es " + (num1 / num2));
 		
 		// Cerramos el scanner

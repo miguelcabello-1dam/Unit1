@@ -10,8 +10,9 @@ public class Ejercicio8 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables del nombre y la edad como string y como entero
+		// Declaracion de la variable del nombre como string
 		String nombre;
+		// Declaracion de la variable de la edad como entero
 		int edad;
 		
 		// Pedimos que se introduzca el nombre

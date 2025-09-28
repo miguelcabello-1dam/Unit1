@@ -10,9 +10,11 @@ public class Ejercicio5 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables del radio, la longitud y el area como Doubles por si contienen decimales
+		// Declaracion de la variable del radio como double
 		double radio;
+		// Declaracion de la variable de la longitud como double
 		double longitud;
+		// Declaracion de la variable del area como double
 		double area;
 		
 		// Pedimos que se introduzca el radio

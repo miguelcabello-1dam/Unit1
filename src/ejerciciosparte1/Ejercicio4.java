@@ -9,10 +9,12 @@ public class Ejercicio4 {
 		
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
-		
-		// Declaramos las variables de la primera nota, la segunda nota y la media como Doubles por si contienen decimales
+
+		// Declaracion de variable de la primera nota como double
 		double nota1;
+		// Declaracion de variable de la segunda nota como double
 		double nota2;
+		// Declaracion de variable de la media de ambas notas como double
 		double media;
 		
 		// Pedimos que se introduzca la primera nota

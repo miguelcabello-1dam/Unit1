@@ -10,9 +10,11 @@ public class Ejercicio7 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables del nombre, la direccion y el telefono como strings
+		// Declararion de la variable del nombre como string
 		String nombre;
+		// Declararion de la variable de la direccion como string
 		String direccion;
+		// Declararion de la variable del telefono como string
 		String telefono;
 		
 		// Pedimos que se introduzca el nombre

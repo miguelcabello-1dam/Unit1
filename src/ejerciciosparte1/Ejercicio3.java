@@ -10,9 +10,11 @@ public class Ejercicio3 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables del año actual, del año de nacimiento y de la edad como enteros
+		// Declaracion de variable del año actual como entero
 		int año;
+		// Declaracion de variable del año de nacimiento como entero
 		int nac;
+		// Declaracion de variable de la edad como entero
 		int edad;
 		
 		// Pedimos que se introduzca el año actual
