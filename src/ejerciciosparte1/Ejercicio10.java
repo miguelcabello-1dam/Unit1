@@ -10,8 +10,9 @@ public class Ejercicio10 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables de un numero y si el numero es par o no como entero y como booleano
+		// Declaracion de la variable del numero como entero
 		int num;
+		// Declaracion de la variable de si es par o impar como booleano
 		boolean par;
 		
 		// Pedimos que se introduzca un numero
@@ -19,6 +20,7 @@ public class Ejercicio10 {
 		// Escaneamos el numero y lo metemos en la variable num
 		num = sc.nextInt();
 		
+		// Comparacion si el numero al dividirse entre dos el resto es 0 o no
 		par = num % 2 == 0;
 		
 		// Devolvemos por pantalla si es par o no

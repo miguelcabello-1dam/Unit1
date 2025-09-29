@@ -10,23 +10,31 @@ public class Ejercicio12 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables la venta de los kilos de peras y manzanas como enteros y las constantes de los precios por kilos como doubles por los decimales y los beneficios anuales como double
-		int ventakilosperas;
-		int ventakilosmanzanas;
-		final double preciokilopera = 1.95;
-		final double preciokilomanzana = 2.35;
-		double beneficioanual;
+		// Declaracion de la variable de las ventas de los kilos de peras como entero
+		int ventaKilosPeras;
+		// Declaracion de la variable de las ventas de los kilos de manzanas como entero
+		int ventaKilosManzanas;
+		// Declaracion de la constante del precio del kilo de pera como double
+		final double precioKiloPera = 1.95;
+		// Declaracion de la constante del precio del kilo de manzana como double
+		final double precioKiloManzana = 2.35;
+		// Declaracion de la variable del beneficio anual como double
+		double beneficioAnual;
 		
-		// Pedimos que se introduzcan los kilos de peras y manzanas
+		// Pedimos que se introduzcan los kilos de peras
 		System.out.println("Introduce la cantidad de venta de kilos de pera");
-		ventakilosperas = sc.nextInt();
+		// Se guarda en la variable ventakilosperas
+		ventaKilosPeras = sc.nextInt();
+		// Pedimos que se introduzcan los kilos de manzanas
 		System.out.println("Introduce la cantidad de venta de kilos de manzana");
-		ventakilosmanzanas = sc.nextInt();
+		// Se guarda en la variable ventakilosmanzanas
+		ventaKilosManzanas = sc.nextInt();
 		
-		beneficioanual = ventakilosperas * preciokilopera + ventakilosmanzanas * preciokilomanzana;
+		// Calculo del beneficio anual multiplicando los kilos por su precio y sumando el totals
+		beneficioAnual = ventaKilosPeras * precioKiloPera + ventaKilosManzanas * precioKiloManzana;
 		
 		// Devolvemos por pantalla el beneficio anual
-		System.out.println("El beneficio anual de las ventas es de: " + beneficioanual + "€");
+		System.out.println("El beneficio anual de las ventas es de: " + beneficioAnual + "€");
 		
 		// Cerramos el scanner
 		sc.close();

@@ -10,20 +10,29 @@ public class Ejercicio13 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables de la lluvia, la tarea, la biblioteca y si puede salir como booleans
+		// Declaracion de la variable de si esta lloviendo como booleano
 		boolean lluvia;
+		// Declaracion de la variable de si ha hecho la tarea como booleano
 		boolean tareaHecha;
+		// Declaracion de la variable de si tiene que ir a la biblioteca como booleano
 		boolean biblioteca;
+		// Declaracion de la variable de si sale como booleano
 		boolean salir;
 		
-		// Le hacemos las preguntas para los booleans y los guardamos
-		System.out.println("Esta lluviendo?");
+		// Pregunta te true o false si llueve
+		System.out.println("Esta lloviendo?");
+		// Se guarda en la variable lluvia
 		lluvia = sc.nextBoolean();
+		// Pregunta te true o false si ha hecho la tarea
 		System.out.println("Has hecho la tarea?");
+		// Se guarda en la variable tareaHecha
 		tareaHecha = sc.nextBoolean();
+		// Pregunta te true o false si tiene que ir a la biblioteca
 		System.out.println("tienes que ir a la biblioteca?");
+		// Se guarda en la variable biblioteca
 		biblioteca = sc.nextBoolean();
 		
+		// Calculo del booleano salir, si no llueve y tiene la tarea hecha puede salir, o si tiene que ir a la biblioteca, puede salir, cualquier otro caso da como resultado false
 		salir = !lluvia && tareaHecha || biblioteca;
 		
 		// Devolvemos por pantalla si puede salir

@@ -10,19 +10,23 @@ public class Ejercicio15 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos la constante del iva como entero y las variables del precio y el precio total como doubles para los decimales
+		// Declaracion de la constante del iva como entero
 		final int iva = 21;
+		// Declaracion de la variable del precio como double
 		double precio;
-		double preciototal;
+		// Declaracion de la variable del precio total como double
+		double precioTotal;
 		
 		// Preguntamos el precio
 		System.out.println("Introduce el precio");
+		// Se guarda en la variable precio
 		precio = sc.nextDouble();
 		
-		preciototal = iva * precio / 100 + precio;
+		// Calculo del precio total haciendo una regla de tres con el precio y el iva y añadiendoselo al precio base
+		precioTotal = iva * precio / 100 + precio;
 		
 		// Devolvemos por pantalla el precio total
-		System.out.println("El precio total incluyendo el iva es de: " + preciototal);
+		System.out.println("El precio total incluyendo el iva es de: " + precioTotal);
 		
 		// Cerramos el scanner
 		sc.close();

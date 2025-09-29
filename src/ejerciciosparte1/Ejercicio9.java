@@ -10,19 +10,21 @@ public class Ejercicio9 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables de la edad y mayoria de edad como entero y como booleano
+		// Declaracion de la variable de la edad como entero
 		int edad;
-		boolean mayoredad;
+		// Declaracion de la variable de mayor de edad o no como booleano
+		boolean mayorEdad;
 		
 		// Pedimos que se introduzca la edad
 		System.out.println("Introduce tu edad");
 		// Escaneamos la edad y lo metemos en la variable edad
 		edad = sc.nextInt();
 		
-		mayoredad = edad >= 18;
+		// Declaramos si es mayor de edad comparando
+		mayorEdad = edad >= 18;
 		
 		// Devolvemos por pantalla si es mayor de edad o no
-		System.out.println("¿Es mayor de edad? " + mayoredad);
+		System.out.println("¿Es mayor de edad? " + mayorEdad);
 		
 		// Cerramos el scanner
 		sc.close();

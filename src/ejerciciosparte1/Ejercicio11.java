@@ -10,8 +10,9 @@ public class Ejercicio11 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables de los euros y las pesetas en boolean por si hay decimales
+		// Declaramos de la variable de las pesetas como entero
 		int peseta;
+		// Declaracion de la variable de los euros como doublle
 		double eur;
 		
 		// Pedimos que se introduzcan las pesetas
@@ -19,6 +20,7 @@ public class Ejercicio11 {
 		// Escaneamos las pesetas y lo metemos en la variable peseta
 		peseta = sc.nextInt();
 		
+		// Calculo de pesetas a euros 1€ = 166 pesetas
 		eur = (double) peseta / 166;
 		
 		// Devolvemos por pantalla los euros

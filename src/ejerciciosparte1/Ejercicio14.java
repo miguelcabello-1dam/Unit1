@@ -10,27 +10,39 @@ public class Ejercicio14 {
 		// Creamos el scanner
 		Scanner sc = new Scanner(System.in);
 		
-		// Declaramos las variables de las notas del primer segundo y tercer trimestre como enteras, la media entera como entera y la mediaboletin como double para los decimales
+		// Declaracion de la variable de las notas del primer trimestre como entero
 		int notas1;
+		// Declaracion de la variable de las notas del segundo trimestre como entero
 		int notas2;
+		// Declaracion de la variable de las notas del tercer trimestre como entero
 		int notas3;
-		int mediaboletin;
-		double mediaexpediente;
+		// Declaracion de la variable de la media de las notas que aparece en el boletin como entero
+		int mediaBoletin;
+		// Declaracion de la variable de la media de las notas que aparece en el expediente academico como double
+		double mediaExpediente;
 		
-		// Le hacemos las preguntas para las notas y las guardamos
+		// Pregunta de las notas del primer trimestre
 		System.out.println("Nota del primer trimestre");
+		// Se guarda en la variable notas1
 		notas1 = sc.nextInt();
+		// Pregunta de las notas del segundo trimestre
 		System.out.println("Nota del segundo trimestre");
+		// Se guarda en la variable notas2
 		notas2 = sc.nextInt();
+		// Pregunta de las notas del tercer trimestre
 		System.out.println("Nota del tercer trimestre");
+		// Se guarda en la variable notas3
 		notas3 = sc.nextInt();
 		
-		mediaboletin = (notas1 + notas2 + notas3) / 3;
-		mediaexpediente = (double) (notas1 + notas2 + notas3) / 3;
+		// Calculo de la media del boletin sumando todas y dividiendo entre el numero total de notas
+		mediaBoletin = (notas1 + notas2 + notas3) / 3;
+		// Calculo de la media del expediente academico sumando todas y dividiendo entre el numero total de notas
+		mediaExpediente = (double) (notas1 + notas2 + notas3) / 3;
 		
-		// Devolvemos por pantalla las medias
-		System.out.println("Media en boletin:  " + mediaboletin);
-		System.out.println("Media en expediente:  " + mediaexpediente);
+		// Devolvemos por pantalla la media del boletin
+		System.out.println("Media en boletin:  " + mediaBoletin);
+		// Devolvemos por pantalla la media del expediente academico
+		System.out.println("Media en expediente:  " + mediaExpediente);
 		
 		// Cerramos el scanner
 		sc.close();
