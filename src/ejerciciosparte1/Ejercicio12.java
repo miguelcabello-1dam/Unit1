@@ -15,9 +15,9 @@ public class Ejercicio12 {
 		// Declaracion de la variable de las ventas de los kilos de manzanas como entero
 		int ventaKilosManzanas;
 		// Declaracion de la constante del precio del kilo de pera como double
-		final double precioKiloPera = 1.95;
+		final double PRECIO_KILO_PERA = 1.95;
 		// Declaracion de la constante del precio del kilo de manzana como double
-		final double precioKiloManzana = 2.35;
+		final double PRECIO_KILO_MANZANA = 2.35;
 		// Declaracion de la variable del beneficio anual como double
 		double beneficioAnual;
 		
@@ -31,7 +31,7 @@ public class Ejercicio12 {
 		ventaKilosManzanas = sc.nextInt();
 		
 		// Calculo del beneficio anual multiplicando los kilos por su precio y sumando el totals
-		beneficioAnual = ventaKilosPeras * precioKiloPera + ventaKilosManzanas * precioKiloManzana;
+		beneficioAnual = ventaKilosPeras * PRECIO_KILO_PERA + ventaKilosManzanas * PRECIO_KILO_MANZANA;
 		
 		// Devolvemos por pantalla el beneficio anual
 		System.out.println("El beneficio anual de las ventas es de: " + beneficioAnual + "€");

@@ -11,7 +11,7 @@ public class Ejercicio15 {
 		Scanner sc = new Scanner(System.in);
 		
 		// Declaracion de la constante del iva como entero
-		final int iva = 21;
+		final int IVA = 21;
 		// Declaracion de la variable del precio como double
 		double precio;
 		// Declaracion de la variable del precio total como double
@@ -23,7 +23,7 @@ public class Ejercicio15 {
 		precio = sc.nextDouble();
 		
 		// Calculo del precio total haciendo una regla de tres con el precio y el iva y añadiendoselo al precio base
-		precioTotal = iva * precio / 100 + precio;
+		precioTotal = IVA * precio / 100 + precio;
 		
 		// Devolvemos por pantalla el precio total
 		System.out.println("El precio total incluyendo el iva es de: " + precioTotal);
