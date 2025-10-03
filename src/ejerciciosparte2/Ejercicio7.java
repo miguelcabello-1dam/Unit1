@@ -38,7 +38,7 @@ public class Ejercicio7 {
 		// Se calcula el total de todas las entradas
 		precioTotalEntradas = entradasInfantiles * PRECIO_ENTRADA_INFANTIL + entradasAdulto * PRECIO_ENTRADA_ADULTO;
 		// Se comprueba si es mayor de 100 para aplicarle el descuento o no
-		precioTotal = precioTotalEntradas >= 100 ? precioTotalEntradas - precioTotalEntradas * DESCUENTO / 100 : precioTotalEntradas;
+		precioTotal = precioTotalEntradas >= 100 ? precioTotalEntradas * (1- DESCUENTO / 100) : precioTotalEntradas;
 		
 		// Se devuelve por pantalla la cantidad total de todas las entradas mas la deduccion del descuento si aplica
 		System.out.println("El precio total de las entradas es de " + precioTotal + "€");
